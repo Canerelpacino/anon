@@ -151,6 +151,7 @@
 }
 
 #text1 {
+  line-height: 1.2em;
   font-family: 'yoot', cursive;
   font-size: 2em;
 }
