@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*Home*/
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .home {
+    display: none;
+  }
+}
+
+.mint {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 128vh;
+  left: -0.5vw;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mint-phone {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 100vw;
+  margin: auto;
+}
+
+
+#connectbtn {
+  margin-top: 40vh;
+  font-family: 'yoot', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 6em;
+}
+
+#about {
+  position: absolute;
+  margin-top: 7vh;
+  margin-left: 30vw;
+  font-family: 'yoot', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+#mint {
+  position: absolute;
+  margin-top: 7vh;
+  margin-left: -30vw;
+  font-family: 'yoot', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+#team {
+  position: absolute;
+  margin-top: 7vh;
+  font-family: 'yoot', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+
+#connect-phone {
+  position: absolute;
+  display: flex;
+  top: 110vw;
+  margin: auto;
+  font-family: 'help', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+
+#connectbtn:hover {
+  scale: 0.95;
+}
+
+#mint:hover {
+  scale: 0.95;
+}
+
+#about:hover {
+  scale: 0.95;
+}
+
+#team:hover {
+  scale: 0.95;
+}
+
+.soldout {
+  position: absolute;
+  font-family: 'help', cursive;
+  font-size: 3em;
+  margin: auto;
+  left: 43vw;
+  top: 11vh;
+}
+
+.soldout-phone {
+  display: block;
+  position: relative;
+  font-family: 'help', cursive;
+  top: 20vw;
+  width: 100%;
+  font-size: 3em;
+  margin: auto;
+}
+
+.mintbtn {
+  font-family: 'help', cursive;
+  color: white;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+.mintbtn:hover {
+  scale: 0.95;
+}
+
+.round-button{
+  font-size: 7em;
+}
+
+#mint-amount{
+  font-size: 7em;
+}
+
+#twitter:hover {
+  scale: 0.95;
+}
+
+#opensea:hover {
+  scale: 0.95;
+}
+
+#text1 {
+  font-family: 'yoot', cursive;
+  font-size: 2em;
+}
+
+#text-1p{
+  font-size: 2em;
+}
+
+#text-2p{
+  font-size: 2em;
+}
+
+#text2 {
+  text-shadow: 1px 1px #350C00;
+  top: 53vw;
+}
+
+#text1:hover {
+  scale: 0.99;
+}
+
+#text2:hover {
+  scale: 0.99;
+}
+
+@media (max-width: 1536px) {
+  #connectbtn {
+    top: 15vh;
+    font-size: 2.8em;
+  }
+  .soldout{
+    font-size: 2.8em;
+  }
+  .round-button{
+    font-size: 2.8em;
+  }
+  #mint-amount{
+    font-size: 2.8em;
+  }
+  #text-1p{
+    font-size: 1.5em;
+  }
+  #text1{
+    top: 51.5vw;
+  }
+  #text-2p{
+    font-size: 1.5em;
+  }
+  #text2{
+    top: 54vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  #connectbtn {
+    top: 15vh;
+    font-size: 2.5em;
+  }
+  .soldout{
+    font-size: 2.5em;
+  }
+  .round-button{
+    font-size: 2.5em;
+  }
+  #mint-amount{
+    font-size: 2.5em;
+  }
+  #text-1p{
+    font-size: 1.3em;
+  }
+  #text1{
+    top: 50vw;
+  }
+  #text-2p{
+    font-size: 1.3em;
+  }
+  #text2{
+    top: 53.5vw;
+  }
+}
