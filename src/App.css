@@ -21,118 +21,24 @@
   position: absolute;
   display: block;
   color: white;
-  top: 128vh;
-  left: -0.5vw;
-  right: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
 
-.mint-phone {
-  position: absolute;
-  display: block;
-  color: white;
-  top: 100vw;
-  margin: auto;
-}
-
-
 #connectbtn {
-  margin-top: 40vh;
+
   font-family: 'yoot', cursive;
-  color: black;
+  color: white;
   cursor: pointer;
   font-size: 6em;
 }
 
-#about {
-  position: absolute;
-  margin-left: -1vw;
-  margin-top: 7vh;
-  font-family: 'yoot', cursive;
-  color: black;
-  cursor: pointer;
-  font-size: 4em;
-}
-
-#mint {
-  position: absolute;
-  margin-top: 7vh;
-  margin-left: -40vw;
-  font-family: 'yoot', cursive;
-  color: black;
-  cursor: pointer;
-  font-size: 4em;
-}
-
-#team {
-  position: absolute;
-  margin-left: 40vw;
-  margin-top: 7vh;
-  font-family: 'yoot', cursive;
-  color: black;
-  cursor: pointer;
-  font-size: 4em;
-}
-
-#stake {
-  position: absolute;
-  margin-left: -20vw;
-  margin-top: 7vh;
-  font-family: 'yoot', cursive;
-  color: black;
-  cursor: pointer;
-  font-size: 4em;
-}
-
-#market {
-  position: absolute;
-  margin-left: 20vw;
-  margin-top: 7vh;
-  font-family: 'yoot', cursive;
-  color: black;
-  cursor: pointer;
-  font-size: 4em;
-}
-
-
-#connect-phone {
-  position: absolute;
-  display: flex;
-  top: 110vw;
-  margin: auto;
-  font-family: 'help', cursive;
-  color: black;
-  cursor: pointer;
-  font-size: 4em;
-}
 
 
 #connectbtn:hover {
   scale: 0.95;
 }
-
-#mint:hover {
-  scale: 0.95;
-}
-
-#about:hover {
-  scale: 0.95;
-}
-
-#team:hover {
-  scale: 0.95;
-}
-
-#stake:hover {
-  scale: 0.95;
-}
-
-#market:hover {
-  scale: 0.95;
-}
-
 
 .soldout {
   position: absolute;
@@ -141,16 +47,6 @@
   margin: auto;
   left: 43vw;
   top: 11vh;
-}
-
-.soldout-phone {
-  display: block;
-  position: relative;
-  font-family: 'help', cursive;
-  top: 20vw;
-  width: 100%;
-  font-size: 3em;
-  margin: auto;
 }
 
 .mintbtn {

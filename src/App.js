@@ -123,105 +123,246 @@ function App() {
     document.getElementById("text1").style.display = "none";
   };
 
-  const changeAbout = () => {
-    document.getElementById("connectbtn").style.display = "none";
-    document.getElementById("connect-phone").style.display = "none";
-    document.getElementById("text1").style.display = "none";
-    document.getElementById("text1").style.display = "flex";
-    document.getElementById("comingsoon").style.display = "none";
+  const t1 = () => {
+    document.getElementById("t1").style.display = "none";
+    document.getElementById("t2").style.display = "block";
   };
 
-  const changeTeam = () => {
-    document.getElementById("connectbtn").style.display = "none";
-    document.getElementById("connect-phone").style.display = "none";
-    document.getElementById("text1").style.display = "none";
-    document.getElementById("comingsoon").style.display = "none";
+  const t2 = () => {
+    document.getElementById("t2").style.display = "none";
+    document.getElementById("t3").style.display = "block";
+
+  };
+
+  const t3 = () => {
+    document.getElementById("t3").style.display = "none";
+    document.getElementById("t4").style.display = "block";
+  };
+
+  const t4 = () => {
+    document.getElementById("t4").style.display = "none";
+    document.getElementById("t5").style.display = "block";
+  };
+
+  const t5 = () => {
+    document.getElementById("t5").style.display = "none";
+    document.getElementById("t6").style.display = "block";
+  };
+
+  const t6 = () => {
+    document.getElementById("t6").style.display = "none";
+    document.getElementById("t7").style.display = "block";
+  };
+
+  const t7 = () => {
+    document.getElementById("t7").style.display = "none";
+    document.getElementById("t8").style.display = "block";
+  };
+
+  const t8 = () => {
+    document.getElementById("t8").style.display = "none";
+    document.getElementById("t9").style.display = "block";
+  };
+
+  const t9 = () => {
+    document.getElementById("t9").style.display = "none";
+    document.getElementById("t10").style.display = "block";
+  };
+
+  const t10 = () => {
+    document.getElementById("t10").style.display = "none";
+    document.getElementById("t10-5").style.display = "block";
+  };
+
+  const t105 = () => {
+    document.getElementById("t10-5").style.display = "none";
+    document.getElementById("t10-6").style.display = "block";
+  };
+
+  const t106 = () => {
+    document.getElementById("t10-6").style.display = "none";
+    document.getElementById("t10-7").style.display = "block";
+  };
+
+  const t107 = () => {
+    document.getElementById("t10-7").style.display = "none";
+    document.getElementById("t10-8").style.display = "block";
+  };
+
+  const t108 = () => {
+    document.getElementById("t10-8").style.display = "none";
+    document.getElementById("t10-9").style.display = "block";
+  };
+
+  const t109 = () => {
+    document.getElementById("t10-9").style.display = "none";
+    document.getElementById("t10-10").style.display = "block";
+  };
+
+  const t1010 = () => {
+    document.getElementById("t10-10").style.display = "none";
+    document.getElementById("t11").style.display = "block";
   };
 
 
-  const changeMint = () => {
-    document.getElementById("connectbtn").style.display = "flex";
-    document.getElementById("connect-phone").style.display = "flex";
-    document.getElementById("text1").style.display = "none";
-    document.getElementById("comingsoon").style.display = "none";
+  const t11 = () => {
+    document.getElementById("t11").style.display = "none";
+    document.getElementById("t12").style.display = "block";
   };
 
-  const changeMarket = () => {
-    document.getElementById("connectbtn").style.display = "none";
-    document.getElementById("connect-phone").style.display = "none";
-    document.getElementById("text1").style.display = "none";
-    document.getElementById("comingsoon").style.display = "block";
+  const t12 = () => {
+    document.getElementById("t12").style.display = "none";
+    document.getElementById("t13").style.display = "block";
   };
 
-  const changeStake = () => {
-    document.getElementById("connectbtn").style.display = "none";
-    document.getElementById("connect-phone").style.display = "none";
-    document.getElementById("text1").style.display = "none";
-    document.getElementById("comingsoon").style.display = "block";
+  const t13 = () => {
+    document.getElementById("t13").style.display = "none";
+    document.getElementById("t14").style.display = "block";
   };
 
+  const t14 = () => {
+    document.getElementById("t14").style.display = "none";
+    document.getElementById("t15").style.display = "block";
+  };
 
+  const t15 = () => {
+    document.getElementById("t15").style.display = "none";
+    document.getElementById("t16").style.display = "block";
+  };
 
+  const t16 = () => {
+    document.getElementById("t16").style.display = "none";
+    document.getElementById("t17").style.display = "block";
+  };
+
+  const t17 = () => {
+    document.getElementById("t17").style.display = "none";
+    document.getElementById("t18").style.display = "block";
+  };
+
+  const t18 = () => {
+    document.getElementById("t18").style.display = "none";
+    document.getElementById("connectbtn").style.display = "block";
+  };
 
 
   return (
     <div>
       <div className="home">
 
-        {/*Socials*/}
-        <div style={{ width: '100%', display: 'flex', flexDirection: 'row-reverse', position: 'absolute', zIndex: '1031' }}>
-          <a href="" target="_blank">
-            <img id="twitter" className="icon" style={{ width: '80px', marginRight: '10px', marginTop: '15px', cursor: 'pointer', zIndex: '1031' }} src="/config/images/twitterp.png"></img>
-          </a>
-          <a href="" target="_blank">
-            <img id="opensea" className="icon" style={{ width: '73px', marginRight: '1px', marginTop: '16px', cursor: 'pointer', zIndex: '1031' }} src="/config/images/opensea.png"></img>
-          </a>
+        <div style={{width: '100%', display: 'flex', flexDirection: 'row', position: 'absolute'}}>
+          <img src="/config/images/anon.png" style={{width: '200px', marginLeft: '30px', marginTop: '-30px'}}></img>
         </div>
 
-    
+        <div style={{width: '100%', backgroundColor: 'black', height: '100vh', display: 'flex'}}>
+          <div id="connectbtn" style={{display: 'none', margin: 'auto', cursor: 'pointer'}}
+              onClick={(e) => {
+                e.preventDefault();
+                dispatch(connect());
+                getData();
+                connected();
+              }}
+            >
+              CONNECT
+            </div>
 
-        <div style={{width: '100%', height: '100%'}}>
-          <BG></BG>
+            <div id="t1" onClick={t1} style={{width: '80%', display: 'block', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>Go back to Icy.Tools</p>
+            </div>
+
+            <div id="t2" onClick={t2} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>OpenSea?</p>
+            </div>
+
+            <div id="t3" onClick={t3} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}> Your navigation is right here in plain sight</p>
+            </div>
+
+            <div id="t4" onClick={t4} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>Congrats you got a virus, congrats we are now draining you</p>
+            </div>
+
+            <div id="t5" onClick={t5} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>change to accessing your private keys...</p>
+            </div>
+
+            <div id="t6" onClick={t6} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>buying azukis and bored apes with your ETH...</p>
+            </div>
+
+            <div id="t7" onClick={t7} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}> Who I am is not important, art is</p>
+            </div>
+
+            <div id="t8" onClick={t8} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>by ANON</p>
+            </div>
+
+            <div id="t9" onClick={t9} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>So ask yourself, what are you really doing here</p>
+            </div>
+
+            <div id="t10" onClick={t10} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>Ight I guess you just wanna mint</p>
+            </div>
+
+            <div id="t10-5" onClick={t105} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
+            </div>
+            
+            <div id="t10-6" onClick={t106} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>mint</p>
+            </div>
+
+            <div id="t10-7" onClick={t107} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>M</p>
+            </div>
+
+            <div id="t10-8" onClick={t108} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MI</p>
+            </div>
+
+            <div id="t10-9" onClick={t109} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MIN</p>
+            </div>
+
+            <div id="t10-10" onClick={t1010} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
+            </div>
+
+            <div id="t11" onClick={t11} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>sike</p>
+            </div>
+
+            <div id="t12" onClick={t12} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}> alright jokes beside</p>
+            </div>
+
+            <div id="t13" onClick={t13} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
+            </div>
+
+            <div id="t14" onClick={t14} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
+            </div>
+
+            <div id="t15" onClick={t15} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '5em'}}>MINT</p>
+            </div>
+
+            <div id="t16" onClick={t16} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '7em'}}>MINT</p>
+            </div>
+
+            <div id="t17" onClick={t17} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '12em'}}>MINT</p>
+            </div>
+
+            <div id="t18" onClick={t18} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>I give up lmao</p>
+            </div>
+
         </div>
-
-       <div style={{width: '100%', height: '80vh'}}>
-       <BG2>
-        <div id="connectbtn"
-            onClick={(e) => {
-              e.preventDefault();
-              dispatch(connect());
-              getData();
-              connected();
-            }}
-          >
-            CONNECT
-          </div>
-
-          <div id="about" onClick={changeAbout}>About</div>
-          <div id="mint" onClick={changeMint}>Mint</div>
-          <div id="team" onClick={changeTeam}>Team</div>
-          <div id="stake" onClick={changeStake}>Stake</div>
-          <div id="market" onClick={changeMarket}>Market</div>
-
-
-          <div style={{width: '30%', marginTop: '36vh', display: 'none'}} id="text1">
-            <p>Rare y00ts is "the art y00ts should have been." Together we will discover Rare y00tsland and crown 
-              the Rare y00ts king. Holding a Rare y00ts gives you access to Rare y00tsland which unlocks a range of web2, web3, and 
-              irl benefits. Our art was meticulously designed by two y00ts holders who love their y00ts but wanted more 
-              diversity in the looks. "Not all y00ts wear glasses" half the supply and double the traits on Ethereum blockchain.</p>
-          </div>
-
-          <div style={{width: '30%', marginTop: '40vh', display: 'none'}} id="comingsoon">
-            <p style={{ fontFamily: '"yoot", cursive', fontSize: '4.5em'}}>COMING SOON...</p>
-          </div>
-
-        </BG2>
-       </div>
-
-       
-
-
-      
 
         {/*Mint Section*/}
         <div className="mint">
@@ -309,97 +450,10 @@ function App() {
 
 
 
+
+
+
       <Phone>
-      <div id="connect-phone" style={{}}
-          onClick={(e) => {
-            e.preventDefault();
-            dispatch(connect());
-            getData();
-            connected();
-          }}
-        >
-          CONNECT
-        </div>
-
-         {/*Mint Section*/}
-         <div className="mint-phone">
-          {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
-            <>
-              <div
-                className="soldout-phone" style={{ fontFamily: "'yoot', cursive", color: 'black'}}
-              >
-                PATIENCEE!
-              </div>
-              <s.SpacerSmall />
-            </>
-          ) : (
-            <>
-              <s.SpacerXSmall />
-              <s.SpacerSmall />
-              {blockchain.account === "" ||
-                blockchain.smartContract === null ? (
-                <s.Container ai={"center"} jc={"center"}>
-                  <s.SpacerSmall />
-
-                  {blockchain.errorMsg !== "" ? (
-                    <>
-                      <s.SpacerSmall />
-                    </>
-                  ) : null}
-                </s.Container>
-              ) : (
-                <>
-                  <div onLoad={connected()}></div>
-                  <s.SpacerMedium />
-                  <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                    <btn id="roundbtn" className="round-button"
-                      style={{ fontFamily: "'yoot', cursive", color: 'black', cursor: 'pointer' }}
-                      disabled={claimingNft ? 1 : 0}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        decrementMintAmount();
-                      }}
-                    >
-                      -
-                    </btn>
-                    <s.SpacerMedium />
-                    <s.TextDescription id="mint-amount"
-                      style={{
-                        textAlign: "center",
-                        color: 'black', fontFamily: "'yoot', cursive"
-                      }}
-                    >
-                      {mintAmount}
-                    </s.TextDescription>
-                    <s.SpacerMedium />
-                    <btn className="round-button"
-                      style={{ fontFamily: "'yoot', cursive", color: 'black', cursor: 'pointer' }}
-                      disabled={claimingNft ? 1 : 0}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        incrementMintAmount();
-                      }}
-                    >
-                      +
-                    </btn>
-                  </s.Container>
-                  <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                    <div className="mintbtn" style={{ fontFamily: "'yoot', cursive", color: 'black', fontSize: '2em', cursor: 'pointer', marginTop: '2px', marginLeft: '8px' }}
-                      disabled={claimingNft ? 1 : 0}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        claimNFTs();
-                        getData();
-                      }}
-                    >
-                      MINT HERE SER
-                    </div>
-                  </s.Container>
-                </>
-              )}
-            </>
-          )}
-        </div>
       </Phone>
     </div>
   );
@@ -421,36 +475,6 @@ text-align: center;
 @media (orientation: landscape) {
   display: none;
 }
-`;
-
-export const BG = styled.div`
-display: flex; 
-flex-direction: column; 
-justify-self: center; 
-align-items: center; 
-height: 100vh; 
-minWidth: 100%;
-background-image: linear-gradient(180deg,transparent 80%,#FAF4F4), url("/config/images/ybg.png");
-background-position: 50%; 
-background-repeat: no-repeat;
-background-size: cover; 
-text-align: center; 
-box-sizing: border-box;
-`;
-
-export const BG2 = styled.div`
-display: flex; 
-flex-direction: column; 
-justify-self: center; 
-align-items: center; 
-height: 90vh; 
-minWidth: 100%;
-background-image: linear-gradient(180deg,transparent 93%,#FAF4F4), url("/config/images/bg2.png");
-background-position: 50%; 
-background-repeat: no-repeat;
-background-size: cover; 
-text-align: center; 
-box-sizing: border-box;
 `;
 
 export default App;
