@@ -210,7 +210,7 @@
 @media (max-width: 1536px) {
   #connectbtn {
     top: 15vh;
-    font-size: 2.8em;
+    font-size: 5em;
   }
   .soldout{
     font-size: 2.8em;
@@ -225,7 +225,7 @@
     font-size: 1.5em;
   }
   #text1{
-    top: 51.5vw;
+    margin-top: 5vh;
   }
   #text-2p{
     font-size: 1.5em;
@@ -238,7 +238,7 @@
 @media (max-width: 1400px) {
   #connectbtn {
     top: 15vh;
-    font-size: 2.5em;
+    font-size: 5em;
   }
   .soldout{
     font-size: 2.5em;
@@ -254,6 +254,7 @@
   }
   #text1{
     top: 50vw;
+    font-size: 1.6em;
   }
   #text-2p{
     font-size: 1.3em;

@@ -143,6 +143,7 @@ function App() {
     document.getElementById("connectbtn").style.display = "flex";
     document.getElementById("connect-phone").style.display = "flex";
     document.getElementById("text1").style.display = "none";
+    document.getElementById("comingsoon").style.display = "none";
   };
 
   const changeMarket = () => {
