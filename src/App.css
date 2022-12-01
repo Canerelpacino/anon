@@ -48,8 +48,8 @@
 
 #about {
   position: absolute;
+  margin-left: -1vw;
   margin-top: 7vh;
-  margin-left: 30vw;
   font-family: 'yoot', cursive;
   color: black;
   cursor: pointer;
@@ -59,7 +59,7 @@
 #mint {
   position: absolute;
   margin-top: 7vh;
-  margin-left: -30vw;
+  margin-left: -40vw;
   font-family: 'yoot', cursive;
   color: black;
   cursor: pointer;
@@ -68,6 +68,27 @@
 
 #team {
   position: absolute;
+  margin-left: 40vw;
+  margin-top: 7vh;
+  font-family: 'yoot', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+#stake {
+  position: absolute;
+  margin-left: -20vw;
+  margin-top: 7vh;
+  font-family: 'yoot', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+#market {
+  position: absolute;
+  margin-left: 20vw;
   margin-top: 7vh;
   font-family: 'yoot', cursive;
   color: black;
@@ -103,6 +124,15 @@
 #team:hover {
   scale: 0.95;
 }
+
+#stake:hover {
+  scale: 0.95;
+}
+
+#market:hover {
+  scale: 0.95;
+}
+
 
 .soldout {
   position: absolute;

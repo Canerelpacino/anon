@@ -128,12 +128,14 @@ function App() {
     document.getElementById("connect-phone").style.display = "none";
     document.getElementById("text1").style.display = "none";
     document.getElementById("text1").style.display = "flex";
+    document.getElementById("comingsoon").style.display = "none";
   };
 
   const changeTeam = () => {
     document.getElementById("connectbtn").style.display = "none";
     document.getElementById("connect-phone").style.display = "none";
     document.getElementById("text1").style.display = "none";
+    document.getElementById("comingsoon").style.display = "none";
   };
 
 
@@ -142,6 +144,21 @@ function App() {
     document.getElementById("connect-phone").style.display = "flex";
     document.getElementById("text1").style.display = "none";
   };
+
+  const changeMarket = () => {
+    document.getElementById("connectbtn").style.display = "none";
+    document.getElementById("connect-phone").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("comingsoon").style.display = "block";
+  };
+
+  const changeStake = () => {
+    document.getElementById("connectbtn").style.display = "none";
+    document.getElementById("connect-phone").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("comingsoon").style.display = "block";
+  };
+
 
 
 
@@ -182,14 +199,21 @@ function App() {
           <div id="about" onClick={changeAbout}>About</div>
           <div id="mint" onClick={changeMint}>Mint</div>
           <div id="team" onClick={changeTeam}>Team</div>
+          <div id="stake" onClick={changeStake}>Stake</div>
+          <div id="market" onClick={changeMarket}>Market</div>
 
 
-          <div style={{width: '30%', marginTop: '40vh', display: 'none'}} id="text1">
+          <div style={{width: '30%', marginTop: '36vh', display: 'none'}} id="text1">
             <p>Rare y00ts is "the art y00ts should have been." Together we will discover Rare y00tsland and crown 
               the Rare y00ts king. Holding a Rare y00ts gives you access to Rare y00tsland which unlocks a range of web2, web3, and 
               irl benefits. Our art was meticulously designed by two y00ts holders who love their y00ts but wanted more 
               diversity in the looks. "Not all y00ts wear glasses" half the supply and double the traits on Ethereum blockchain.</p>
           </div>
+
+          <div style={{width: '30%', marginTop: '40vh', display: 'none'}} id="comingsoon">
+            <p style={{ fontFamily: '"yoot", cursive', fontSize: '4.5em'}}>COMING SOON...</p>
+          </div>
+
         </BG2>
        </div>
 
