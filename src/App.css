@@ -11,11 +11,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 960px) {
-  .home {
-    display: none;
-  }
-}
+
 
 .mint {
   position: absolute;

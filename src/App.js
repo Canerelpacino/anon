@@ -502,9 +502,7 @@ function App() {
 
 
 
-      <Phone>
-        <img src="/config/images/anon.png" style={{margin: 'auto', width: '60%'}}></img>
-      </Phone>
+    
     </div>
   );
 }
