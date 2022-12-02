@@ -28,7 +28,7 @@
 
 #connectbtn {
 
-  font-family: 'yoot', cursive;
+  font-family: 'tiny', cursive;
   color: white;
   cursor: pointer;
   font-size: 6em;
@@ -78,7 +78,7 @@
 
 #text1 {
   line-height: 1.2em;
-  font-family: 'yoot', cursive;
+  font-family: 'tiny', cursive;
   font-size: 2em;
 }
 

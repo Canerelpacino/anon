@@ -138,6 +138,11 @@ table {
   src: local("/src/styles/scribbletdemo.otf"), url(scribbletdemo.otf) format("opentype");
 }
 
+@font-face {
+  font-family: "tiny";
+  src: local("/src/styles/tiny.ttf"), url(tiny.ttf) format("truetype");
+}
+
 body {
   margin: 0;
   font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",

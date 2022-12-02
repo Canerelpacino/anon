@@ -267,99 +267,99 @@ function App() {
             </div>
 
             <div id="t1" onClick={t1} style={{width: '80%', display: 'block', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>Go back to Icy.Tools</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Go back to Icy.Tools</p>
             </div>
 
             <div id="t2" onClick={t2} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>OpenSea?</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>OpenSea?</p>
             </div>
 
             <div id="t3" onClick={t3} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}> Your navigation is right here in plain sight</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}> Your navigation is right here in plain sight</p>
             </div>
 
             <div id="t4" onClick={t4} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>Congrats you got a virus, congrats we are now draining you</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Congrats you got a virus, congrats we are now draining you</p>
             </div>
 
             <div id="t5" onClick={t5} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>change to accessing your private keys...</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>change to accessing your private keys...</p>
             </div>
 
             <div id="t6" onClick={t6} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>buying azukis and bored apes with your ETH...</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>buying azukis and bored apes with your ETH...</p>
             </div>
 
             <div id="t7" onClick={t7} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}> Who I am is not important, art is</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}> Who I am is not important, art is</p>
             </div>
 
             <div id="t8" onClick={t8} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>by ANON</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>by ANON</p>
             </div>
 
             <div id="t9" onClick={t9} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>So ask yourself, what are you really doing here</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>So ask yourself, what are you really doing here</p>
             </div>
 
             <div id="t10" onClick={t10} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>Ight I guess you just wanna mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Ight I guess you just wanna mint</p>
             </div>
 
             <div id="t10-5" onClick={t105} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
             </div>
             
             <div id="t10-6" onClick={t106} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>mint</p>
             </div>
 
             <div id="t10-7" onClick={t107} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>M</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>M</p>
             </div>
 
             <div id="t10-8" onClick={t108} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MI</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MI</p>
             </div>
 
             <div id="t10-9" onClick={t109} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MIN</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MIN</p>
             </div>
 
             <div id="t10-10" onClick={t1010} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
             </div>
 
             <div id="t11" onClick={t11} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>sike</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>sike</p>
             </div>
 
             <div id="t12" onClick={t12} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}> alright jokes beside</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}> alright jokes beside</p>
             </div>
 
             <div id="t13" onClick={t13} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
             </div>
 
             <div id="t14" onClick={t14} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
             </div>
 
             <div id="t15" onClick={t15} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '5em'}}>MINT</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '5em'}}>MINT</p>
             </div>
 
             <div id="t16" onClick={t16} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '7em'}}>MINT</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '7em'}}>MINT</p>
             </div>
 
             <div id="t17" onClick={t17} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '12em'}}>MINT</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '12em'}}>MINT</p>
             </div>
 
             <div id="t18" onClick={t18} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"yoot", cursive', color: 'white', fontSize: '3em'}}>I give up lmao</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>I give up lmao</p>
             </div>
 
         </div>
@@ -369,7 +369,7 @@ function App() {
           {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
             <>
               <div
-                className="soldout" style={{ fontFamily: "'yoot', cursive", color: 'black'}}
+                className="soldout" style={{ fontFamily: "'tiny', cursive", color: 'black'}}
               >
                 SOLD OUT!
               </div>
@@ -396,7 +396,7 @@ function App() {
                   <s.SpacerMedium />
                   <s.Container ai={"center"} jc={"center"} fd={"row"}>
                     <btn id="roundbtn" className="round-button"
-                      style={{ fontFamily: "'yoot', cursive", color: 'black', cursor: 'pointer' }}
+                      style={{ fontFamily: "'tiny', cursive", color: 'black', cursor: 'pointer' }}
                       disabled={claimingNft ? 1 : 0}
                       onClick={(e) => {
                         e.preventDefault();
@@ -409,14 +409,14 @@ function App() {
                     <s.TextDescription id="mint-amount"
                       style={{
                         textAlign: "center",
-                        color: 'black', fontFamily: "'yoot', cursive"
+                        color: 'black', fontFamily: "'tiny', cursive"
                       }}
                     >
                       {mintAmount}
                     </s.TextDescription>
                     <s.SpacerMedium />
                     <btn className="round-button"
-                      style={{ fontFamily: "'yoot', cursive", color: 'black', cursor: 'pointer' }}
+                      style={{ fontFamily: "'tiny', cursive", color: 'black', cursor: 'pointer' }}
                       disabled={claimingNft ? 1 : 0}
                       onClick={(e) => {
                         e.preventDefault();
@@ -427,7 +427,7 @@ function App() {
                     </btn>
                   </s.Container>
                   <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                    <div className="mintbtn" style={{ fontFamily: "'yoot', cursive", color: 'black', fontSize: '4em', cursor: 'pointer', marginTop: '2px', marginLeft: '8px' }}
+                    <div className="mintbtn" style={{ fontFamily: "'tiny', cursive", color: 'black', fontSize: '4em', cursor: 'pointer', marginTop: '2px', marginLeft: '8px' }}
                       disabled={claimingNft ? 1 : 0}
                       onClick={(e) => {
                         e.preventDefault();
