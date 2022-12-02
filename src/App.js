@@ -242,9 +242,13 @@ function App() {
 
   const t18 = () => {
     document.getElementById("t18").style.display = "none";
-    document.getElementById("connectbtn").style.display = "block";
+    document.getElementById("t19").style.display = "block";
   };
 
+  const t19 = () => {
+    document.getElementById("t19").style.display = "none";
+    document.getElementById("t20").style.display = "block";
+  };
 
   return (
     <div>
@@ -360,6 +364,14 @@ function App() {
 
             <div id="t18" onClick={t18} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
               <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>I give up lmao</p>
+            </div>
+
+            <div id="t19" onClick={t19} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '5em'}}>CONNECT</p>
+            </div>
+
+            <div id="t20" style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Coming soon, anon.</p>
             </div>
 
         </div>
