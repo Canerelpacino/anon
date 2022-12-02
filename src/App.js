@@ -166,8 +166,29 @@ function App() {
 
   const t9 = () => {
     document.getElementById("t9").style.display = "none";
+    document.getElementById("t91").style.display = "block";
+  };
+
+  const t91 = () => {
+    document.getElementById("t91").style.display = "none";
+    document.getElementById("t92").style.display = "block";
+  };
+
+  const t92 = () => {
+    document.getElementById("t92").style.display = "none";
+    document.getElementById("t93").style.display = "block";
+  };
+
+  const t93 = () => {
+    document.getElementById("t93").style.display = "none";
+    document.getElementById("t94").style.display = "block";
+  };
+
+  const t94 = () => {
+    document.getElementById("t94").style.display = "none";
     document.getElementById("t10").style.display = "block";
   };
+
 
   const t10 = () => {
     document.getElementById("t10").style.display = "none";
@@ -271,79 +292,95 @@ function App() {
             </div>
 
             <div id="t1" onClick={t1} style={{width: '80%', display: 'block', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Go back to Icy.Tools</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Go back to Icy.Tools</p>
             </div>
 
             <div id="t2" onClick={t2} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>OpenSea?</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>OpenSea?</p>
             </div>
 
             <div id="t3" onClick={t3} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}> Your navigation is right here in plain sight</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}> Your navigation is right here in plain sight</p>
             </div>
 
             <div id="t4" onClick={t4} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Congrats you got a virus, congrats we are now draining you</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Congrats you got a virus, congrats we are now draining you</p>
             </div>
 
             <div id="t5" onClick={t5} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>change to accessing your private keys...</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>change to accessing your private keys...</p>
             </div>
 
             <div id="t6" onClick={t6} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>buying azukis and bored apes with your ETH...</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>buying azukis and bored apes with your ETH...</p>
             </div>
 
             <div id="t7" onClick={t7} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}> Who I am is not important, art is</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}> Who I am is not important, art is</p>
             </div>
 
             <div id="t8" onClick={t8} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>by ANON</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>by ANON</p>
             </div>
 
             <div id="t9" onClick={t9} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>So ask yourself, what are you really doing here</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>So ask yourself, what are you really doing here</p>
+            </div>
+
+            <div id="t91" onClick={t91} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Looking for art?</p>
+            </div>
+
+            <div id="t92" onClick={t92} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Looking for money?</p>
+            </div>
+
+            <div id="t93" onClick={t93} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Looking for love?</p>
+            </div>
+
+            <div id="t94" onClick={t94} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Are you happy?</p>
             </div>
 
             <div id="t10" onClick={t10} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Ight I guess you just wanna mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Oh, you wanna mint me? Gotcha.</p>
             </div>
 
             <div id="t10-5" onClick={t105} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>click here to mint</p>
             </div>
             
             <div id="t10-6" onClick={t106} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>mint</p>
             </div>
 
             <div id="t10-7" onClick={t107} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>M</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>M</p>
             </div>
 
             <div id="t10-8" onClick={t108} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MI</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>MI</p>
             </div>
 
             <div id="t10-9" onClick={t109} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MIN</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>MIN</p>
             </div>
 
             <div id="t10-10" onClick={t1010} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>MINT</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>MINT</p>
             </div>
 
             <div id="t11" onClick={t11} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>sike</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>sike</p>
             </div>
 
             <div id="t12" onClick={t12} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}> alright jokes beside</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}> alright jokes beside</p>
             </div>
 
             <div id="t13" onClick={t13} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>click here to mint</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>click here to mint</p>
             </div>
 
             <div id="t14" onClick={t14} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
@@ -363,7 +400,7 @@ function App() {
             </div>
 
             <div id="t18" onClick={t18} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>I give up lmao</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>I give up lmao</p>
             </div>
 
             <div id="t19" onClick={t19} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
@@ -371,7 +408,7 @@ function App() {
             </div>
 
             <div id="t20" style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
-              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Coming soon, anon.</p>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '3em'}}>Coming soon, for anons only.</p>
             </div>
 
         </div>
