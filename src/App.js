@@ -503,6 +503,7 @@ function App() {
 
 
       <Phone>
+        <img src="/config/images/anon.png" style={{margin: 'auto', width: '60%'}}></img>
       </Phone>
     </div>
   );
@@ -516,7 +517,7 @@ justify-self: center;
 align-items: center; 
 height: 100vh;
 minWidth: 100%;
-background-image: url("/config/images/ybg.png");
+background-color: black;
 background-position: 50%; 
 background-repeat: no-repeat;
 background-size: cover; 
