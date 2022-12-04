@@ -181,6 +181,11 @@ function App() {
 
   const t93 = () => {
     document.getElementById("t93").style.display = "none";
+    document.getElementById("t931").style.display = "block";
+  };
+
+  const t931 = () => {
+    document.getElementById("t931").style.display = "none";
     document.getElementById("t94").style.display = "block";
   };
 
@@ -422,6 +427,10 @@ function App() {
 
             <div id="t93" onClick={t93} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
               <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Investors</p>
+            </div>
+
+            <div id="t931" onClick={t931} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
+              <p style={{fontFamily: '"tiny", cursive', color: 'white', fontSize: '2em'}}>Collectors</p>
             </div>
 
             <div id="t94" onClick={t94} style={{width: '80%', display: 'none', margin: 'auto', cursor: 'pointer'}}>
